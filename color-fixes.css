@@ -1,0 +1,368 @@
+/* ========================================
+   COLOR FIXES & OVERRIDES
+   ======================================== */
+
+/* Force proper text colors throughout */
+body {
+    color: #1e3a8a !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1e3a8a !important;
+}
+
+p {
+    color: #1e40af !important;
+}
+
+/* Section backgrounds */
+section {
+    background: rgba(255, 255, 255, 0.95) !important;
+    color: #1e3a8a !important;
+}
+
+.hero-slider-3d {
+    background: linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%) !important;
+}
+
+/* Navigation fixes */
+.navbar {
+    background: rgba(255, 255, 255, 0.98) !important;
+}
+
+.nav-logo,
+.nav-logo span {
+    color: #1e3a8a !important;
+}
+
+.nav-logo i {
+    color: #667eea !important;
+}
+
+.nav-link {
+    color: #1e3a8a !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #667eea !important;
+}
+
+/* Button text colors */
+.btn {
+    font-weight: 600 !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2, #667eea) !important;
+    color: white !important;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.btn-secondary:hover {
+    background: white !important;
+    color: #667eea !important;
+}
+
+.btn-outline {
+    background: transparent !important;
+    color: #667eea !important;
+    border: 2px solid #667eea !important;
+}
+
+.btn-outline:hover {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    color: white !important;
+}
+
+/* 3D Button text */
+.btn-3d {
+    color: white !important;
+}
+
+.btn-3d span {
+    color: white !important;
+}
+
+.btn-3d.btn-secondary {
+    color: white !important;
+}
+
+.btn-3d.btn-secondary span {
+    color: white !important;
+}
+
+/* Card backgrounds and text */
+.program-card,
+.stat-card-3d,
+.card-3d,
+.team-card-3d {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+}
+
+.program-card h3,
+.program-card p,
+.program-card span {
+    color: #1e3a8a !important;
+}
+
+.stat-card-3d h3,
+.stat-card-3d p {
+    color: #1e3a8a !important;
+}
+
+.card-3d h3,
+.card-3d p,
+.card-3d span {
+    color: #1e3a8a !important;
+}
+
+.team-card-3d h3,
+.team-card-3d p {
+    color: #1e3a8a !important;
+}
+
+/* Mission section */
+.mission {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%) !important;
+}
+
+.mission h2,
+.mission p {
+    color: #1e3a8a !important;
+}
+
+/* About section */
+.about {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.about-text h2,
+.about-text h3,
+.about-text p {
+    color: #1e3a8a !important;
+}
+
+/* Programs section */
+.programs {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.section-title {
+    color: #1e3a8a !important;
+}
+
+/* Impact section */
+.impact {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.impact h2,
+.impact h3,
+.impact h4,
+.impact p {
+    color: #1e3a8a !important;
+}
+
+.story-author {
+    color: #667eea !important;
+    font-style: italic;
+}
+
+/* Team section */
+.team {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.team h2,
+.team h3,
+.team p {
+    color: #1e3a8a !important;
+}
+
+.member-role {
+    color: #667eea !important;
+}
+
+/* Donate/CTA section */
+.donate,
+.cta-3d {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.12) 0%, rgba(118, 75, 162, 0.12) 100%) !important;
+}
+
+.donate h2,
+.donate p,
+.cta-3d h2,
+.cta-3d p {
+    color: #1e3a8a !important;
+}
+
+.donation-amount .amount {
+    color: #667eea !important;
+}
+
+/* Contact section */
+.contact {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.contact h2,
+.contact h3,
+.contact h4,
+.contact p {
+    color: #1e3a8a !important;
+}
+
+.contact-item i {
+    color: #667eea !important;
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #1e3a8a !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(30, 58, 138, 0.5) !important;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%) !important;
+    color: white !important;
+}
+
+.footer h4,
+.footer p,
+.footer a {
+    color: white !important;
+}
+
+.footer-logo span {
+    color: white !important;
+}
+
+.footer-logo i {
+    color: white !important;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.developer-credit a {
+    color: #a5f3fc !important;
+}
+
+.developer-credit a:hover {
+    color: white !important;
+}
+
+/* Social links */
+.social-links a {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.social-links a:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+
+/* Stats and numbers */
+.stat-number {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+/* Program icons */
+.program-icon {
+    color: #667eea !important;
+}
+
+.card-icon i {
+    color: #667eea !important;
+}
+
+/* Ensure slider content is visible */
+.slide-title {
+    color: white !important;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.slide-text {
+    color: rgba(255, 255, 255, 0.95) !important;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.slide-icon {
+    color: white !important;
+}
+
+.stat-box h3 {
+    color: white !important;
+}
+
+.stat-box p {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Check icons */
+.fa-check-circle {
+    color: #667eea !important;
+}
+
+/* Ensure good contrast */
+.image-placeholder {
+    background: rgba(102, 126, 234, 0.1) !important;
+}
+
+.image-placeholder i {
+    color: #667eea !important;
+}
+
+/* Stats mini */
+.stats-mini strong {
+    color: #667eea !important;
+}
+
+.stats-mini small {
+    color: #1e40af !important;
+}
+
+/* Hamburger menu for mobile */
+.hamburger .bar {
+    background: #1e3a8a !important;
+}
+
+/* Active nav link */
+.nav-link.active {
+    color: #667eea !important;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+    background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.scroll-progress-bar {
+    background: linear-gradient(90deg, #667eea, #764ba2, #e74c3c) !important;
+}
