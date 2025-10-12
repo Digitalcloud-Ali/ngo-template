@@ -34,14 +34,16 @@ Update colors in `color-fixes.css`:
 
 ```
 index.html              # Main website
-styles.css              # Base styles
-slider-3d-enhanced.css  # 3D slider
-site-3d-effects.css     # 3D effects
-color-fixes.css         # Colors
-script.js               # Main JS
-slider-3d.js            # Slider
-site-3d-effects.js      # Effects
-particles.js            # Particles
+css/
+  ├── styles.css              # Base styles
+  ├── slider-3d-enhanced.css  # 3D slider
+  ├── site-3d-effects.css     # 3D effects
+  └── color-fixes.css         # Colors
+js/
+  ├── script.js               # Main JS
+  ├── slider-3d.js            # Slider
+  ├── site-3d-effects.js      # Effects
+  └── particles.js            # Particles
 ```
 
 ### 🌐 Browser Support
@@ -90,14 +92,16 @@ Oppdater farger i `color-fixes.css`:
 
 ```
 index.html              # Hovednettsiden
-styles.css              # Basisstiler
-slider-3d-enhanced.css  # 3D-slider
-site-3d-effects.css     # 3D-effekter
-color-fixes.css         # Farger
-script.js               # Hoved-JS
-slider-3d.js            # Slider
-site-3d-effects.js      # Effekter
-particles.js            # Partikler
+css/
+  ├── styles.css              # Basisstiler
+  ├── slider-3d-enhanced.css  # 3D-slider
+  ├── site-3d-effects.css     # 3D-effekter
+  └── color-fixes.css         # Farger
+js/
+  ├── script.js               # Hoved-JS
+  ├── slider-3d.js            # Slider
+  ├── site-3d-effects.js      # Effekter
+  └── particles.js            # Partikler
 ```
 
 ### 🌐 Nettleserstøtte
