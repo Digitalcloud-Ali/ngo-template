@@ -1,4 +1,4 @@
-# Håp Norge - NGO Website Template
+# Norge NGO Template
 
 Modern, responsive single-page website template for humanitarian organizations with 3D effects and animations.
 
@@ -18,7 +18,7 @@ Modern, responsive single-page website template for humanitarian organizations w
 
 ## 🎨 Customization
 
-Replace "Håp Norge" with your organization name in `index.html`
+Edit organization name and content in `index.html`
 
 Update colors in `color-fixes.css`:
 - Primary: `#1e3a8a` (Navy blue)
